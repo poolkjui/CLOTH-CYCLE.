@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CLOTH CYCLE – Donate Your Clothes</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(135deg, #74b9ff, #a29bfe);
+      color: #333;
+    }
+
+    header {
+      background: white;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 20px 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      color: #0984e3;
+      font-size: 26px;
+      letter-spacing: 1px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+      margin-left: 25px;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #0984e3;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 100px 20px;
+      color: white;
+    }
+
+    .hero h2 {
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      margin-bottom: 30px;
+    }
+
+    .hero button {
+      background: #fff;
+      color: #0984e3;
+      border: none;
+      padding: 15px 30px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .hero button:hover {
+      background: #0984e3;
+      color: white;
+    }
+
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 60px 20px;
+      background: #f7f9fc;
+    }
+
+    .feature-card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      width: 280px;
+      margin: 15px;
+      padding: 30px 20px;
+      text-align: center;
+      transition: transform 0.3s;
+    }
+
+    .feature-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .feature-card img {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 15px;
+    }
+
+    .feature-card h3 {
+      color: #0984e3;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #0984e3;
+      color: white;
+      margin-top: 50px;
+      letter-spacing: 0.5px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>CLOTH CYCLE</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Donate</a>
+      <a href="#">Track</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Donate Clothes. Spread Warmth. Bring Smiles.</h2>
+    <p>Upload a photo of the clothes you wish to donate, and our team will handle the rest — from pickup to delivery tracking.</p>
+    <button>Get Started</button>
+  </section>
+
+  <section class="features">
+    <div class="feature-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/2921/2921820.png" alt="Upload">
+      <h3>Upload Clothes</h3>
+      <p>Take a photo and upload it in the app. It’s quick and easy!</p>
+    </div>
+
+    <div class="feature-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/3097/3097144.png" alt="Pickup">
+      <h3>Pickup Service</h3>
+      <p>Our delivery partner will pick up your donation from your doorstep.</p>
+    </div>
+
+    <div class="feature-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/684/684908.png" alt="Track">
+      <h3>Track Donation</h3>
+      <p>See where your clothes go and ensure they reach the people who need them.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 CLOTH CYCLE | Made with ❤️ to help others</p>
+  </footer>
+
+</body>
+</html>
